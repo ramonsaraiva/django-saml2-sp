@@ -74,11 +74,6 @@ AUTHENTICATION_BACKENDS = (
     'djangosaml2.backends.Saml2Backend',
 )
 
-LOGIN_URL = '/saml2/login/'
-LOGOUT_URL = '/logout/'
-LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/'
-
 SAML_BASE_URL = 'http://localhost:9000/saml2'
 
 SAML_CONFIG = {
