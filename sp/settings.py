@@ -27,7 +27,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.messages.middleware.MessageMiddleware',
 ]
 
-ROOT_URLCONF = 'saml.urls'
+ROOT_URLCONF = 'sp.urls'
 
 TEMPLATES = [
     {
@@ -45,7 +45,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'saml.wsgi.application'
+WSGI_APPLICATION = 'sp.wsgi.application'
 
 DATABASES = {
     'default': {
